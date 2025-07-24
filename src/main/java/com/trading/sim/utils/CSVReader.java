@@ -1,12 +1,13 @@
-package utils; // declares that the file belongs to the utils package 
+package com.trading.sim.utils; // declares that the file belongs to the utils package 
 
-import java.io.BufferedReader; // tells the compile that we are using the Candle class from the model package
+import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import model.Candle;
+
+import com.trading.sim.model.Candle; // correct import
 
 // begin class definition for CSVReader
 public class CSVReader{

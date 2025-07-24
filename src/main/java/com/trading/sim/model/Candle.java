@@ -1,4 +1,4 @@
-package model;
+package com.trading.sim.model;
 import java.time.LocalDate;
 public class Candle {
 	// declare attributes for the Candle class 
